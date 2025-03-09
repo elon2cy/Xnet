@@ -17,9 +17,9 @@ if (body) {
     
       obj.data.song_name = originalName + "-" + originalSinger;
       // 将歌手改为固定文本“点击播放—>”
-      obj.data.song_singer = "z先生定制电台>>>";
+      obj.data.song_singer = "爱ELON❤️>>>";
       // 修改封面为指定链接
-      obj.data.cover = "http://q4.qlogo.cn/headimg_dl?dst_uin=719883788&spec=640";
+      obj.data.cover = "https://ts.lhvw.cn//upload/2f/2f1b246f98d80091fa5bb928ea3c90.jpg";
     }
     $done({body: JSON.stringify(obj)});
   } catch (e) {
